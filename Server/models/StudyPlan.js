@@ -6,7 +6,7 @@ const studyPlanSchema = new mongoose.Schema({
     startDate: Date,
     endDate: Date,
     description: String,
-    specialConstrains: String,
+    specialConstraints: String,
     aiSuggestions: String,
 },{ timestamps: true });
 
